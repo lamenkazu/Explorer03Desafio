@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before{
+    display: block;
+    background: #535971;
+
+    position: fixed;
+    z-index: -1;
+
+    top: 0;
+    left: 0;
+
+    content: '';
+    width: 100%;
+    height: 436px;
+}
+
+body, 
+.form-buttons button{
+    font-family: 'Staatliches', sans-serif;
+}
+
+header p,
+form label{
+    font-family: 'Poppins', sans-serif;
+}
+
+.page{
+    width: 750px;
+    margin: 140px auto;
+
+}
+
+header{
+    width: 417px;
+    color: white;
+
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+header h1{
+    color: #FFF;
+
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+
+form{
+    background-color: white;
+    padding: 64px;
+    border-radius: 20px 20px 0 0;
+}
+
+.form-buttons{
+    background-color: #535971;
+
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 0 0 20px 20px;
+
+    padding: 52px 71px;
+}
+
+.form-buttons button{
+    font-size: 20px;
+    line-height: 26px;
+
+    padding: 15px 40px;
+
+    border-radius: 20px;
+    background: #FF5374;
+    border: none;
+}
+
+.form-buttons button:hover{
+    background: #e64b6a;
+    cursor: pointer;
+}
+
